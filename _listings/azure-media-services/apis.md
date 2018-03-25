@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Microsoft
 - Media
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-25"
+modified: "2018-03-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/apis.yaml
 specificationVersion: "0.14"
 apis:
