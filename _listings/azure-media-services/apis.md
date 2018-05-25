@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Media Services
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Media Service Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidprovidersmicrosoftmediachecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidprovidersmicrosoft-mediachecknameavailability-post-openapi.md
 - name: Azure Media Services API Media Service List By Resource Group
   x-api-slug: azure-media-services-api
   description: Lists all of the Media Services in a resource group.
@@ -35,9 +35,9 @@ apis:
   tags: Media Service Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservices-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservices-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservices-get-openapi.md
 - name: Azure Media Services API Media Service Get
   x-api-slug: azure-media-services-api
   description: Gets a Media Service.
@@ -47,9 +47,9 @@ apis:
   tags: Media Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-get-openapi.md
 - name: Azure Media Services API Media Service Create
   x-api-slug: azure-media-services-api
   description: Creates a Media Service.
@@ -59,7 +59,7 @@ apis:
   tags: Media Service
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-put-openapi.md
 - name: Azure Media Services API Media Service Delete
   x-api-slug: azure-media-services-api
   description: Deletes a Media Service.
@@ -69,9 +69,9 @@ apis:
   tags: Media Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-delete-openapi.md
 - name: Azure Media Services API Media Service Update
   x-api-slug: azure-media-services-api
   description: Updates a Media Service.
@@ -81,7 +81,7 @@ apis:
   tags: Media Service
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-patch-openapi.md
 - name: Azure Media Services API Media Service Regenerate Key
   x-api-slug: azure-media-services-api
   description: Regenerates a primary or secondary key for a Media Service.
@@ -91,7 +91,7 @@ apis:
   tags: Media Service Regenerate Key
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicenameregeneratekey-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenameregeneratekey-post-openapi.md
 - name: Azure Media Services API Media Service List Keys
   x-api-slug: azure-media-services-api
   description: Lists the keys for a Media Service.
@@ -101,9 +101,9 @@ apis:
   tags: Media Service Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post-openapi.md
 - name: Azure Media Services API Media Service Sync Storage Keys
   x-api-slug: azure-media-services-api
   description: Synchronizes storage account keys for a storage account associated
@@ -114,7 +114,7 @@ apis:
   tags: Media Service Sync Storage Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftmediamediaservicesmediaservicenamesyncstoragekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamesyncstoragekeys-post-openapi.md
 - name: Azure Media Services API
   x-api-slug: azure-media-services-api
   description: Azure Media Services gives you broadcast-quality video streaming services

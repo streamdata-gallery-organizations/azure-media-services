@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Media Services
-x-complete: 1
+x-complete: 0
 info:
-  title: MediaServicesManagementClient
-  description: media-services-resource-management-apis-
+  title: Azure Media Services API Media Service Delete
+  description: Deletes a Media Service.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -94,76 +94,17 @@ paths:
           description: OK
       tags:
       - Media Service
-    patch:
-      summary: Media Service Update
-      description: Updates a Media Service.
-      operationId: MediaService_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-patch
-      parameters:
-      - in: body
-        name: MediaService
-        description: Media Service properties needed for update
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Media Service
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/regenerateKey
-  : post:
-      summary: Media Service Regenerate Key
-      description: Regenerates a primary or secondary key for a Media Service.
-      operationId: MediaService_RegenerateKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenameregeneratekey-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: RegenerateKeyInput
-        description: Properties needed to regenerate the Media Service key
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Media Service Regenerate Key
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/listKeys
-  : post:
-      summary: Media Service List Keys
-      description: Lists the keys for a Media Service.
-      operationId: MediaService_ListKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Media Service Keys
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/syncStorageKeys
-  : post:
-      summary: Media Service Sync Storage Keys
-      description: Synchronizes storage account keys for a storage account associated
-        with the Media Service account.
-      operationId: MediaService_SyncStorageKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamesyncstoragekeys-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: SyncStorageKeysInput
-        description: Properties needed to synchronize the keys for a storage account
-          to the Media Service
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Media Service Sync Storage Keys
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
