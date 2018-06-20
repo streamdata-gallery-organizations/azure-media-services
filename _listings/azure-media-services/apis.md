@@ -8,10 +8,10 @@ description: Azure Media Services gives you broadcast-quality video streaming se
   your content.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Media Services
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/apis.md
 specificationVersion: "0.14"
 apis:

@@ -5,7 +5,7 @@ description: This is a repository of azure media services APIs, self-contained a
   operations.
 image: http://template.streamdata.gallery/assets/azure-media-services.png
 created: "2018-02-24"
-modified: "2018-05-24"
+modified: "2018-06-20"
 url: http://azure-media-services.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
