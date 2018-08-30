@@ -10,126 +10,125 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Azure Media Services
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Media Services API Media Service Check Name Availability
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Check Name Availability
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-mediachecknameavailability-post
   description: Checks whether the Media Service resource name is available. The name
     must be globally unique.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.Media/CheckNameAvailability
-  tags: Media Service Name Availability
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidprovidersmicrosoft-mediachecknameavailability-post-openapi.md
-- name: Azure Media Services API Media Service List By Resource Group
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service List By Resource Group
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservices-get
   description: Lists all of the Media Services in a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices
-  tags: Media Service Resource Group
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservices-get-openapi.md
-- name: Azure Media Services API Media Service Get
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-get
   description: Gets a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}
-  tags: Media Service
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-get-openapi.md
-- name: Azure Media Services API Media Service Create
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Create
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-put
   description: Creates a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}
-  tags: Media Service
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-put-openapi.md
-- name: Azure Media Services API Media Service Delete
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-delete
   description: Deletes a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}
-  tags: Media Service
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-delete-openapi.md
-- name: Azure Media Services API Media Service Update
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-patch
   description: Updates a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}
-  tags: Media Service
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicename-patch-openapi.md
-- name: Azure Media Services API Media Service Regenerate Key
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Regenerate Key
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenameregeneratekey-post
   description: Regenerates a primary or secondary key for a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/regenerateKey
-  tags: Media Service Regenerate Key
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenameregeneratekey-post-openapi.md
-- name: Azure Media Services API Media Service List Keys
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service List Keys
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post
   description: Lists the keys for a Media Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/listKeys
-  tags: Media Service Keys
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamelistkeys-post-openapi.md
-- name: Azure Media Services API Media Service Sync Storage Keys
-  x-api-slug: azure-media-services-api
+- name: MediaServicesManagementClient - Media Service Sync Storage Keys
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamesyncstoragekeys-post
   description: Synchronizes storage account keys for a storage account associated
     with the Media Service account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaservices/{mediaServiceName}/syncStorageKeys
-  tags: Media Service Sync Storage Keys
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, Media, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-mediamediaservicesmediaservicenamesyncstoragekeys-post-openapi.md
-- name: Azure Media Services API
-  x-api-slug: azure-media-services-api
-  description: Azure Media Services gives you broadcast-quality video streaming services
-    to reach larger audiences on today&rsquo;s most popular mobile devices. Media
-    Services enhances accessibility, distribution, and scalability, and makes it easy
-    and cost-effective to stream content to your local and worldwide audiences&mdash;all
-    while protecting your content.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
-  humanURL: https://azure.microsoft.com/en-us/services/media-services/
-  baseURL: ://management.azure.com//
-  tags: Azure Media Services
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.machine.learning.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.media.services.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
 - type: x-pricing

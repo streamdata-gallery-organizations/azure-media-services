@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Media Services
 x-complete: 1
@@ -166,4 +165,3 @@ paths:
           description: OK
       tags:
       - Media Service Sync Storage Keys
----

@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Media Services",
+	"description": "This is a repository of azure media services APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-media-services.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-media-services.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Media Services",
+			"x-api-slug": "azure-media-services",
+			"description": "Azure Media Services gives you broadcast-quality video streaming services to reach larger audiences on today&rsquo;s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local and worldwide audiences&mdash;all while protecting your content.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/media-services/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Media Services",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Media Services",
+	"include": [
+		{
+			"name": "Azure Media Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-media-services/master/_listings/azure-media-services/apis.yaml"
+		}
+	]
+}
